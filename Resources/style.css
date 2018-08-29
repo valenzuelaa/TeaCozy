@@ -1,5 +1,33 @@
 body{
   background-color: black;
+}
+
+header{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  background-color: black
+  opacity:0.9;
+  z-index: 10;
+  width: 100%;
+}
+.logo{
+  height: 50px;
+  margin:9.5 10;
+}
+
+.Month{
+  display: flex;
+}
+.content{
+  position: relative;
+  padding: 70px;
+
+}
+
+nav{
+  display: inline-block;
 
 }
 .mission .image{
