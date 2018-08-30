@@ -5,6 +5,7 @@ body{
   font-size: 22px;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 header{
@@ -12,9 +13,9 @@ header{
   border-bottom: 1px solid seashell;
   position: fixed;
   display: flex;
-  background-color: black
+  background-color: black;
   opacity:0.9;
-  z-index: 10;
+  z-index: 1;
   width: 100%;
 }
 
@@ -23,17 +24,15 @@ header{
   padding: 70px;
 }
 
-.logo{
+.logo img{
   height: 50px;
-  margin:9.5 10;
-}
-
-nav{
-  display: inline-block;
+  margin-left:10px;
+  margin-top: auto;
 }
 
 .mission .image{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
   height: 700px;
 }
 
@@ -45,54 +44,57 @@ nav{
   position: relative;
   color: white;
   top: 50%;
+
+}
+
+.month{
+  width: 1000px;
+  margin: auto;
 }
 
 .teas{
-  display: flex;
-  width: 1000px;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .totm img{
   width: 300px;
   height: 200px;
-  padding: 10px;
-  //justify-content: center;
+  margin: 5px;
+}
+
+.totm h3{
+  margin: 5px;
 }
 
 .locations{
-  position: relative;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
-  display: block;
   margin: auto;
-
-}
-
-.locations span{
-  top: 50%;
-
-
 }
 
 .places{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .address{
   text-align: center;
   background-color: black;
-  //justify-content: space-around;
   width: 300px;
   margin: 15px 20px;
   align-items: center;
+  opacity: 1;
+}
+
+.contact{
+  height: 200px;
 }
 
 footer{
   text-align: left;
+  margin-left: 20px;
 }
