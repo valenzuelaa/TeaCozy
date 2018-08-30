@@ -4,10 +4,8 @@ body{
   font-family: Helvetica;
   font-size: 22px;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
-
 
 header{
   height: 69px;
@@ -46,49 +44,55 @@ nav{
   display: block;
   position: relative;
   color: white;
+  top: 50%;
 }
 
+.teas{
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
 
-.totm{
-  height: 200px;
+}
+
+.totm img{
   width: 300px;
-}
- .teas{
-   display: flex;
-   width: 1000px;
-   flex-wrap: wrap;
-   justify-content: center;
-
- }
-
- .totm img{
-   width: 300px;
-   height: 200px;
-   margin: 50px 10px
- }
-
- .locations{
-   position: relative;
-   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-   height: 500px;
-   width: 1200px;
-   padding: 70px;
+  height: 200px;
+  padding: 10px;
+  //justify-content: center;
 }
 
- .places{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+.locations{
+  position: relative;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: block;
+  margin: auto;
 
- }
+}
 
- .address{
-   text-align: center;
-   background-color: black;
-   justify-content: space-around;
+.locations span{
+  top: 50%;
 
- }
 
- footer{
-   text-align: left;
- }
+}
+
+.places{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.address{
+  text-align: center;
+  background-color: black;
+  //justify-content: space-around;
+  width: 300px;
+  margin: 15px 20px;
+  align-items: center;
+}
+
+footer{
+  text-align: left;
+}
