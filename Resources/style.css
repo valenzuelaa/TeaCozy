@@ -19,6 +19,11 @@ header{
   width: 100%;
 }
 
+nav{
+  display: inline-block;
+
+}
+
 .mission{
   position: relative;
   padding: 70px;
@@ -28,17 +33,18 @@ header{
   height: 50px;
   margin-left:10px;
   margin-top: auto;
+  display: flex;
 }
 
 .mission .image{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  width: 1200px;
+  //width: 1200px;
   height: 700px;
 }
 
 .mission .image span{
   background-color: black;
-  width: 1200px;
+  //width: 1200px;
   opacity: 100%;
   display: block;
   position: relative;
@@ -48,7 +54,7 @@ header{
 }
 
 .month{
-  width: 1000px;
+  //width: 1000px;
   margin: auto;
 }
 
@@ -59,7 +65,7 @@ header{
 }
 
 .totm img{
-  width: 300px;
+  //width: 300px;
   height: 200px;
   margin: 5px;
 }
@@ -70,9 +76,11 @@ header{
 
 .locations{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
   height: 500px;
-  width: 1200px;
+  //width: 1200px;
   margin: auto;
+  background-position: center;
 }
 
 .places{
