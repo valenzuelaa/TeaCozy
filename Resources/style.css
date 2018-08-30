@@ -4,6 +4,8 @@ body{
   font-family: Helvetica;
   font-size: 22px;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 
@@ -54,9 +56,39 @@ nav{
  .teas{
    display: flex;
    width: 1000px;
+   flex-wrap: wrap;
+   justify-content: center;
+
  }
 
  .totm img{
    width: 300px;
    height: 200px;
+   margin: 50px 10px
+ }
+
+ .locations{
+   position: relative;
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+   height: 500px;
+   width: 1200px;
+   padding: 70px;
+}
+
+ .places{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+ }
+
+ .address{
+   text-align: center;
+   background-color: black;
+   justify-content: space-around;
+
+ }
+
+ footer{
+   text-align: left;
  }
