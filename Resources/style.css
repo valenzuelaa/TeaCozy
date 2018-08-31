@@ -17,11 +17,13 @@ header{
   opacity:0.9;
   z-index: 1;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav{
   display: inline-block;
-
+  margin-right: 10px;
 }
 
 .mission{
@@ -32,29 +34,27 @@ nav{
 .logo img{
   height: 50px;
   margin-left:10px;
-  margin-top: auto;
   display: flex;
 }
 
 .mission .image{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  //width: 1200px;
   height: 700px;
+  background-repeat: no-repeat;
 }
 
 .mission .image span{
   background-color: black;
-  //width: 1200px;
-  opacity: 100%;
+  max-width: 1200px;
+  opacity: 1;
   display: block;
   position: relative;
   color: white;
   top: 50%;
-
 }
 
 .month{
-  //width: 1000px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -65,12 +65,8 @@ nav{
 }
 
 .totm img{
-  //width: 300px;
+  width: 300px;
   height: 200px;
-  margin: 5px;
-}
-
-.totm h3{
   margin: 5px;
 }
 
@@ -78,9 +74,8 @@ nav{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   background-repeat: no-repeat;
   height: 500px;
-  //width: 1200px;
-  margin: auto;
   background-position: center;
+  margin: auto;
 }
 
 .places{
@@ -93,7 +88,7 @@ nav{
   text-align: center;
   background-color: black;
   width: 300px;
-  margin: 15px 20px;
+  margin: 7.5px 20px;
   align-items: center;
   opacity: 1;
 }
